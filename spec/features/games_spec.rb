@@ -1,8 +1,10 @@
 require 'spec_helper'
+require 'launchy'
 
 feature 'Users can play Ten Thousand' do
 
   scenario 'Users play' do
+    pending
     srand(1)
     create_user
     login_user
